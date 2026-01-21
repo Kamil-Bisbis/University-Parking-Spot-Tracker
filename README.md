@@ -1,4 +1,4 @@
-# Parking Monitor System
+<img width="1664" height="1046" alt="image" src="https://github.com/user-attachments/assets/87811990-2681-4429-8cbc-d8564d08e5f9" /># Parking Monitor System
 
 This project monitors parking spots using a camera feed and sends email notifications when the occupancy status changes. It utilizes OpenCV for video processing, YOLOv3 for object detection, and AWS SES for sending emails with images of the parking lot upon detecting changes.
 
