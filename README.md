@@ -19,20 +19,20 @@ It uses OpenCV for video processing, YOLOv3 for vehicle detection, and AWS SES t
 
 ## Setup
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/parking-monitor-system.git
 cd parking-monitor-system
 ````
 
-### 2. Install dependencies
+### Install dependencies
 
 ```bash
 pip install opencv-python numpy boto3
 ```
 
-### 3. Download YOLOv3 files
+### Download YOLOv3 files
 
 Place the following files in the project root:
 
@@ -40,7 +40,7 @@ Place the following files in the project root:
 * `yolov3.weights`
 * `coco.names`
 
-### 4. Configure AWS SES
+### Configure AWS SES
 
 Verify sender and recipient email addresses in AWS SES and configure AWS credentials.
 
@@ -54,7 +54,7 @@ export AWS_DEFAULT_REGION=your_region
 
 Update email addresses in `notifier.py`.
 
-### 5. Define parking spots
+### Define parking spots
 
 In `parking_monitor.py`, define parking spot bounding boxes based on the camera view.
 
@@ -65,7 +65,7 @@ parking_spots = [
 ]
 ```
 
-### 6. Run
+### Run
 
 ```bash
 python parking_monitor.py
